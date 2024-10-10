@@ -1,0 +1,32 @@
+extends base.pug
+	
+block style	
+		style
+			include ../static/style.css
+			include ../static/utils.css
+			include ../static/responsive.css
+			
+block content
+	div.container.flex_align_justify_column
+		video( id="background-video" autoplay loop muted plays-inline )
+			source(src="../static/bganim.mp4" type="video/mp4")
+		div.main_heading   GALAXY-9 GAMES
+		div.img_container
+			img( src="./static/img.jpg" class="img" )
+		div.content_intro
+			h1 Intro
+			span.bold  Email: 
+			| galaxygames@gmail.com
+			
+		div.content_myself
+			div.have_margin
+				| Once a hobby Now an ambission.
+			div.have_margin
+				| For over two Years we've been working on our
+				| skills on developing games that can  
+				| Satisfy the modern audience.
+				
+			div.section
+				h1.heading_margin PROJECTS
+				div.boxes
+					a( href="/webSites" class="box" id="logo_box") GAMES

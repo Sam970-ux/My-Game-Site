@@ -1,0 +1,17 @@
+extends base.pug
+	
+block style	
+		style
+			include ../static/style.css
+			include ../static/utils.css
+			include ../static/responsive.css
+			
+block content
+	div.container.flex_align_justify_column
+		div.logo_container
+			h1.has_word_break.have_margin.flex_align_justify.heaing_size_45px
+				| LOGOS
+			div#has_logos
+
+block scripts	
+	script(src='../static/script.js')

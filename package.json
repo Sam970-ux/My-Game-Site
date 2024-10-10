@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "node": "^20.18.0",
+    "nodemon": "^3.1.7",
+    "pug": "^3.0.3"
+  },
+  "name": "my-game-website",
+  "version": "1.0.0",
+  "description": "Website for my games support",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

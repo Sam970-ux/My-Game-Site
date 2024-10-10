@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.has_width_100percent{
+    width: 100%;
+
+}
+
+.justify_content_center{
+	
+	justify-content: center;
+	
+}
+
+.text_align_center{
+	text-align:center;
+}
+
+.heaing_size_45px{
+	font-size: 45px;
+}
+
+.has_word_break {
+  word-break: break-word;
+}
+
+.has_fontSize_1_7rem {
+  font-size:1.7rem;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.flex{
+	display:flex;
+}
+
+.flex_align{
+	display:flex;
+	align-items:center;
+}
+
+.flex_align_justify{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.flex_align_justify_column{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction: column;
+}
+
+.block{
+	display:block;
+}
+
+#has_logos {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: gainsboro;
+}

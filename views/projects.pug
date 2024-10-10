@@ -1,0 +1,25 @@
+extends base.pug
+
+block style
+	style
+		include ../static/style.css
+		include ../static/utils.css
+		include ../static/responsive.css
+		
+block content
+	
+	div.container.flex_align_justify_column
+		video( id="background-video" autoplay loop muted plays-inline )
+			source(src="../static/bganim.mp4" type="video/mp4")
+
+		div.section.has_width_100percent.has_fontSize_1_7rem.text_align_centers.has_word_break 
+		
+			div.heaing_size_45px.text_align_center
+				| OUR GAMES 
+		
+			div#static_urls.have_margin.text_align_center.flex.justify_content_center
+
+
+
+block scripts
+	script(src='../static/projects.js')
